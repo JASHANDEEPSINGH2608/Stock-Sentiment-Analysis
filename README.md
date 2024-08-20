@@ -2,12 +2,12 @@
 
 This project implements a Long Short-Term Memory (LSTM) neural network to predict stock prices based on historical data from Yahoo Finance. The model is built using Python, TensorFlow, and Keras, and is designed to predict the closing price of Apple's stock.
 
-# Features #
-Data Retrieval: Historical stock data is retrieved from Yahoo Finance using the yfinance library.
-Data Preprocessing: The data is scaled using MinMaxScaler, and a window of the last 60 days is used to train the model.
-Model Architecture: The model is built using two LSTM layers followed by Dense layers.
-Training and Testing: The data is split into training and testing datasets, and the model is trained to minimize mean squared error.
-Prediction: The model predicts future stock prices and the results are visualized using Matplotlib.
+## Features
+- **Data Retrieval:** Historical stock data is retrieved from Yahoo Finance using the `yfinance` library.
+- **Data Preprocessing:** The data is scaled using `MinMaxScaler`, and a window of the last 60 days is used to train the model.
+- **Model Architecture:** The model is built using two LSTM layers followed by Dense layers.
+- **Training and Testing:** The data is split into training and testing datasets, and the model is trained to minimize mean squared error.
+- **Prediction:** The model predicts future stock prices, and the results are visualized using `Matplotlib`.
 
 ## **Methodology**
 <img src="https://user-images.githubusercontent.com/7460892/207003643-e03c8964-3f16-4a62-9a2d-b1eec5d8691f.png" width="80%" height="80%">
