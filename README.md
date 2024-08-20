@@ -9,13 +9,16 @@ Model Architecture: The model is built using two LSTM layers followed by Dense l
 Training and Testing: The data is split into training and testing datasets, and the model is trained to minimize mean squared error.
 Prediction: The model predicts future stock prices and the results are visualized using Matplotlib.
 
-# Methodology #
-Data Collection: Historical stock data for Apple (AAPL) is downloaded from Yahoo Finance.
-Data Preprocessing: The closing prices are scaled, and a sliding window of 60 days is used to create training and testing datasets.
-Model Building: An LSTM-based model is constructed using Keras, with two LSTM layers and two Dense layers.
-Model Training: The model is trained on 80% of the data, with a batch size of 1 and 1 epoch.
-Prediction and Evaluation: The model is used to predict the stock prices on the test data. The root mean squared error (RMSE) is calculated to evaluate the model's performance.
-Visualization: The predicted and actual prices are plotted for visual comparison.
+## **Methodology**
+<img src="https://user-images.githubusercontent.com/7460892/207003643-e03c8964-3f16-4a62-9a2d-b1eec5d8691f.png" width="80%" height="80%">
+
+
+## **2. Description**
+<img src="https://user-images.githubusercontent.com/7460892/207003772-ba2061bc-f8fd-4479-ba42-4712328b7085.png" width="80%" height="80%">
+
+
+## **3. Input / Output**
+<img src="https://user-images.githubusercontent.com/7460892/207004091-8f67548d-50ac-49c3-b7cb-ef8ec18a6491.png" width="40%" height="40%">
 
 # Input File #
 The input data is retrieved automatically from Yahoo Finance. The dataset used includes historical data for Apple (AAPL) from January 1, 2012, to December 17, 2023. No manual input file is required, but you can modify the ticker symbol and date range in the script to fetch data for different stocks or time periods.
